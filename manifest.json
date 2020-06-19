@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Codeloccol",
+    "description": "extension_favoris",
+    "version":"1.0.0",
+    "author":  "Moctar Yonli",
+    "icons":{"128":"code.png"},
+    "browser_action":{
+        "default_icon": "code.png",
+        "default_popup": "popup.html"
+    },
+    "permissions":["activeTab","webNavigation"]
+}
